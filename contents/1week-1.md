@@ -24,29 +24,30 @@ split한 문자열을 한 번더 '+'를 기준으로 split 해서 '+'연산을 �
 
 ```
     import java.util.*;
-public class Main{
-    public static void main(String[] args){
-        int answer = Integer.MAX_VALUE;
-        Scanner sc = new Scanner(System.in);
-        String[] sub = sc.nextLine().split("-"); // '-' 기준으로 문자열 split
+
+    public class Main{
+        public static void main(String[] args){
+            int answer = Integer.MAX_VALUE;
+            Scanner sc = new Scanner(System.in);
+            String[] sub = sc.nextLine().split("-"); // '-' 기준으로 문자열 split
         
         
-        for(int i = 0; i < sub.length; i++){
-            int temp = 0;
+            for(int i = 0; i < sub.length; i++){
+                int temp = 0;
             
-            String[] add = sub[i].split("\\+"); // '+' 기준으로 문자열 split
+                String[] add = sub[i].split("\\+"); // '+' 기준으로 문자열 split
             
-            for(int j =0; j < add.length; j++){
-                temp += Integer.parseInt(add[j]);
+                for(int j =0; j < add.length; j++){
+                    temp += Integer.parseInt(add[j]);
+                }
+                if(answer == Integer.MAX_VALUE){ //처음 값이면 연산없이 temp값
+                    answer = temp; 
+                }else{
+                    answer -= temp;
+                }
             }
-            if(answer == Integer.MAX_VALUE){ //처음 값이면 연산없이 temp값
-                answer = temp; 
-            }else{
-                answer -= temp;
-            }
+            System.out.println(answer);
         }
-        System.out.println(answer);
     }
-}
 ```
 
