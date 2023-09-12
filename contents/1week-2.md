@@ -3,13 +3,16 @@
 
 문제
 ---
-<img src="https://github.com/ksssmm/codingtest/blob/master/contents/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202023-09-11%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%206.24.43.png">
+<img src="https://github.com/ksssmm/codingtest/blob/master/contents/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202023-09-12%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2010.02.34.png">
 
 이 문제는 나무의 종을 입력 받으면 사전순으로 정렬하여 
 
 그 종이 차지하는 비율을 백분율로 소수점 4번째 자리까지 반올림해 
 
 아래와 같이 출력하라고 하였다.
+
+
+<img src="https://github.com/ksssmm/codingtest/blob/master/contents/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202023-09-12%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2010.03.08.png" width="200px" height="600px"><img src="https://github.com/ksssmm/codingtest/blob/master/contents/images/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202023-09-12%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%2010.03.17.png" width="200px" height="600px">
 
 출력을 보자 HashMap이 바로 떠올라서 HashMap을 사용 하여 풀었다.
 
