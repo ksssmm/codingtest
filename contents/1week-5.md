@@ -19,8 +19,8 @@
 
 방문 처리가 안되어 있는 컴퓨터가 있으면 방문하도록 하였다
 
-<img src="./images/#1.png" >
-<img src="./images/#2.png" >
+<img src="./images/network1.png" >
+<img src="./images/network2.png" >
 
 
 
