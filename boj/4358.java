@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+public class 4358 {
     static HashMap<String, Integer> trees;
     static int allCount;
     public static void main(String[] args) throws IOException {
