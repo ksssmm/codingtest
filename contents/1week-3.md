@@ -3,7 +3,7 @@
 
 문제
 ---
-<img src="./images/targetnumber.png">
+<img src="./images/targetnumber.png" width="50%">
 
 이 문제는 주어진 숫자들을 + , - 만 바꿔서 연산해
 

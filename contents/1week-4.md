@@ -3,8 +3,8 @@
 
 문제
 ---
-<img src="./images/gameMap1.png">
-<img src="./images/gameMap2.png">
+<img src="./images/gameMap1.png" width="50%">
+<img src="./images/gameMap2.png" width="50%">
 
 
 이 문제는 상대 진영에 도달하는 가장 빠른 경로를 찾는 문제이다.

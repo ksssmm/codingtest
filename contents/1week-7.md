@@ -4,8 +4,8 @@
 
 ## 문제
 
-<img src="./images/7562-1.png">
-<img src="./images/7562-2.png">
+<img src="./images/7562-1.png" width="50%">
+<img src="./images/7562-2.png" width="50%">
 
 이 문제는 체스판에서 나이트가 ```target```까지 이동하기 위해 
 

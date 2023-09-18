@@ -3,8 +3,8 @@
 
 문제
 ---
-<img src="./images/miroEscape-1.png">
-<img src="./images/miroEscape-2.png">
+<img src="./images/miroEscape-1.png" width="50%">
+<img src="./images/miroEscape-2.png" width="50%">
 
 
 이 문제는 직사각형 형태의 미로에서 레버칸에 먼저 방문 후
@@ -27,8 +27,8 @@
 따라서 ```bfs```로 문제를 해결 하였다.
 
 
-<img src="./images/miroEscape-3.png">
-<img src="./images/miroEscape-4.png">
+<img src="./images/miroEscape-3.png" width="50%">
+<img src="./images/miroEscape-4.png" width="50%">
 
 
 

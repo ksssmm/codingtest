@@ -3,7 +3,7 @@
 
 문제
 ---
-<img src="./images/network.png">
+<img src="./images/network.png" width="50%">
 
 이 문제는 컴퓨터간의 연결된 네트워크 수를 구하는 문제이다.
 
@@ -19,8 +19,8 @@
 
 방문 처리가 안되어 있는 컴퓨터가 있으면 방문하도록 하였다
 
-<img src="./images/network1.png" >
-<img src="./images/network2.png" >
+<img src="./images/network1.png" width="50%">
+<img src="./images/network2.png" width="50%">
 
 
 
