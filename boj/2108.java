@@ -1,34 +1,3 @@
-# 통계학
-
-## baekjoon 2108
-
-## 문제
-
-<img src="./images/statistics-1.png" width="70%">
-
-이 문제는 N개의 수가 주어지면 평균값, 정렬한뒤에 중앙값, 최빈값, 범위 - 최댓값과 최솟값의 차이 를 구하는 문제이다.
-
-처음 봤을때는 너무 쉽다고 생각했는데, 최빈값의 조건이 좀 까다로웠다.
-
-최빈값이 여러 개 존재하면 두 번째로 작은 값을 출력해야 했다.
-
-## 풀이
-----
-
-최빈값은 기본적으로 HashMap을 이용해서 풀었다.
-
-최빈값이 여러개일 경우를 대비해서 `maxFrequency`에 최빈값의 횟수를 저장하고,
-
-`maxFrequency`와 같은 횟수를 가진 즉 다른 최빈값을 `ArrayList`에 저장한뒤에 정렬하여 
-
-2번째로 작은 수에 쉽게 접근하도록 문제를 풀었다.
-
-
-
-
-
-
-```
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
@@ -58,7 +27,6 @@ public class 2108 {
     int median = numbers.get(N / 2);
 
     int maxFrequency = Collections.max(frequency.values());
-
     ArrayList<Integer> modes = new ArrayList<>();
     for (int key : frequency.keySet()) {
       if (frequency.get(key) == maxFrequency) {
@@ -81,6 +49,3 @@ public class 2108 {
     System.out.println(range);
   }
 }
-
-
-```
