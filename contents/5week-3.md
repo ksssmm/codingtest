@@ -61,13 +61,13 @@ int[] eat = new int[d+1];// 먹은 초밥을 카운트하는 배열
 
 
 for(int i=0; i<k; ++i) {
-			++eat[arr[r]]; //벨트위에 있는 r번째 초밥의 번호를 먹은 것으로 처리
-			if(eat[arr[r]] == 1) {
-				++cnt;
-			}
-			++r;
+	++eat[arr[r]]; //벨트위에 있는 r번째 초밥의 번호를 먹은 것으로 처리
+	if(eat[arr[r]] == 1) {
+	  ++cnt;
 		}
-		ans = cnt;
+	++r;
+	}
+ans = cnt;
 ```
 
 
