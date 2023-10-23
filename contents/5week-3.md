@@ -85,26 +85,26 @@ cnt를 +1 해서 ans와 비교해 최대값을 구했다.
 
 ```
 while(l != n) {
-			--eat[arr[l]];
-			if(eat[arr[l]] == 0) {
-				--cnt;
-			}
-			++l;
+	--eat[arr[l]];
+	if(eat[arr[l]] == 0) {
+		--cnt;
+	}
+	++l;
 			
-			++eat[arr[r]];
-			if(eat[arr[r]] == 1) {
-				++cnt;
-			}
-			++r;
-			if(r == n) {
-				r = 0;
-			}
-			if(eat[c] == 0) {
-				ans = Math.max(ans, cnt + 1);
-			} else {
-				ans = Math.max(ans, cnt);
-			}
+	++eat[arr[r]];
+	if(eat[arr[r]] == 1) {
+		++cnt;
+	}
+	++r;
+	if(r == n) {
+		r = 0;
 		}
+	if(eat[c] == 0) {
+		ans = Math.max(ans, cnt + 1);
+		} else {
+			ans = Math.max(ans, cnt);
+		}
+	}
 ```
 
 
