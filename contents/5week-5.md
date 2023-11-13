@@ -43,6 +43,9 @@
 <img src="./images/printStar-3.png" width="20%">
 <img src="./images/printStar-2.png" width="10%">
 
+<img src="./images/printStar-6.png" width="70%">
+
+
 
 ```
 static void printStar(int i, int j, int n){ 
