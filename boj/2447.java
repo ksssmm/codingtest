@@ -9,18 +9,18 @@ public class 2447{
         
         for(int i = 0; i < n; i++){
             for(int j = 0; j< n; j++){
-                printStar(i,j,n);
+                isCenter(i,j,n);
             }
             sb.append('\n');
         }
         System.out.println(sb);
     }
-    static void printStar(int i, int j, int n){
+    static void isCenter(int i, int j, int n){
         if((i/n) % 3 == 1 && (j/n) % 3 ==1){
             sb.append(' ');
         } else {
             if(n == 1) sb.append('*');
-            else printStar(i, j, n/3);
+            else isCenter(i, j, n/3);
         }
     }
 }
