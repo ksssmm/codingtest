@@ -68,6 +68,9 @@ N의 범위가 1000까지 가능해서 int나 long으로 데이터를 처리하�
 
 
 
+<img src="./images/binomal-6.png" width="70%">
+
+
 ### 코드
 ---
 
