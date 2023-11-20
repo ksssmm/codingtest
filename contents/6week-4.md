@@ -4,7 +4,7 @@
 
 ## 문제
 
-<img src="./images/binomal-1.png" width="70%">
+<img src="./images/1699-1.png" width="70%">
 
 
 ### 풀이
