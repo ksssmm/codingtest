@@ -12,7 +12,7 @@
 
 C(n,k)
 
-<img src="./images/binomal-2.png" width="70%">
+
 
 
 
